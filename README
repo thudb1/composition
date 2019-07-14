@@ -1,0 +1,10 @@
+本项目基于OpenKe (Github地址: https://github.com/thunlp/OpenKE)
+
+1. 安装TensorFlow
+2. 编译C++文件
+> bash make.sh
+3. 训练并测试模型
+> python train.py
+
+其中data/HUAWEI中的数据可以通过original_data中的原始数据生成
+> cd original_data && python handle_data.py && python n-n.py
